@@ -35,6 +35,12 @@ export default {
 
 <style lang="scss" scoped>
 #main {
+    background-color: #B8860B;
+    #loading {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 5em;
+    }
     #cards-list {
         display: flex;
         flex-flow: row wrap;
